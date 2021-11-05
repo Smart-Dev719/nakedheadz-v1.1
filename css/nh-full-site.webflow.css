@@ -85,12 +85,12 @@ a {
   padding-top: 0px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #6d6d6d;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #c5c5c5;
+  color: #c5c5c511;
 }
 
 ul {
@@ -553,8 +553,9 @@ figure {
   flex: 1;
 }
 
+
 .nav-menu.social-mobile {
-  display: none;
+  display: block;
   max-width: 20vw;
   padding-top: 5vh;
   padding-bottom: 3vh;
@@ -570,6 +571,9 @@ figure {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  margin-right: -10vw;
+  font-size: 30px;
+  text-align: center;
 }
 
 .nav-menu.last {
