@@ -90,7 +90,7 @@ a {
 }
 
 a:hover {
-  color: #c5c5c511;
+  color: rgba(18, 19, 19, 0.342);
 }
 
 ul {
@@ -526,7 +526,7 @@ figure {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 20vw;
+  max-width: 30vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -554,11 +554,12 @@ figure {
 }
 
 
+
 .nav-menu.social-mobile {
-  display: block;
-  max-width: 20vw;
-  padding-top: 5vh;
-  padding-bottom: 3vh;
+  display: inline-block;
+  max-width: 15vw;
+  padding-top: 14px;
+  padding-bottom: 1vh;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -573,11 +574,12 @@ figure {
   flex: 1;
   margin-right: -10vw;
   font-size: 30px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .nav-menu.last {
   -webkit-box-pack: end;
+  max-width: 8vw;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
